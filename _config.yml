@@ -74,7 +74,8 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: next
+# theme: next
+theme: yilia
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -82,3 +83,28 @@ deploy:
   type: git
   repository: https://github.com/liyilinlinlin/liyilinlinlin.github.io.git
   branch: master
+
+# 关于yilia 主题配置 ---start
+
+# 下载 hexo-generator-json-content
+# 格式一定要正确，否则会出错
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
+
+#  -----end
