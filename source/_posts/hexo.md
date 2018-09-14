@@ -1,5 +1,7 @@
 ---
 title: hexo 博客搭建之路
+tags:
+    -hexo
 ---
 
 # 部署环境

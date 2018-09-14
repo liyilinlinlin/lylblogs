@@ -1,5 +1,8 @@
 ---
 title: hexo 博客搭建之路--部署到github上
+tags:
+    - hexo
+    - github
 ---
 
 # 前言
@@ -9,7 +12,7 @@ title: hexo 博客搭建之路--部署到github上
     打开你的GitHub首页，在左边有一个 New repository 按钮，点击创建一个新的repository，例如我的名字是 liyilinlinlin ，那么我的repository名字就是 liyilinlinlin.gitbub.io
     
     
-![](.\..\images\newimg.png)
+![](.\images\newimg.png)
 
 **注意**
 
